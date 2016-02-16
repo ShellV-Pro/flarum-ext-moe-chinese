@@ -12,11 +12,11 @@ core:
       colored_header_label: 彩色头部
       colors_heading: 颜色
       colors_text: "选择两种颜色作为站点主题。第一种将用作突出显示颜色，第二种将用于背景元素的样式。"
-      custom_styles_heading: 自定义样式
-      custom_styles_text: 添加 LESS/CSS 代码以生成自定义样式作为默认外观。
-      dark_mode_label: 夜间模式
-      edit_css_button: 编辑自定义CSS
-      enter_hex_message: 请输入一个十六进制颜色代码。
+      custom_styles_heading: 自己造皮肤
+      custom_styles_text: 来点 LESS/CSS 的码子自己搞默认皮肤滴样式。
+      dark_mode_label: 夜猫子模式
+      edit_css_button: 自己写CSS
+      enter_hex_message: 来敲一只十六进制滴颜色码子。
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
