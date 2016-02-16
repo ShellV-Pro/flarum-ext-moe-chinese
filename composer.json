@@ -12,17 +12,17 @@
         }
     ],
     "support": {
-        "source": "https://github.com/jsthon/flarum-ext-simplified-chinese"
+        "source": "https://github.com/LimiQS/flarum-ext-simplified-chinese"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.4"
     },
     "extra": {
         "flarum-extension": {
-            "title": "Simplified Chinese",
+            "title": "Moe Chinese",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#DE2910",
+                "backgroundColor": "#FFFFFF",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
