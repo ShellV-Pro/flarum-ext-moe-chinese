@@ -9,67 +9,67 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: 彩色头部
-      colors_heading: 颜色
-      colors_text: "选择两种颜色作为站点主题。第一种将用作突出显示颜色，第二种将用于背景元素的样式。"
-      custom_styles_heading: 自己造皮肤
-      custom_styles_text: 来点 LESS/CSS 的码子自己搞默认皮肤滴样式。
-      dark_mode_label: 夜猫子模式
-      edit_css_button: 自己写CSS
-      enter_hex_message: 来敲一只十六进制滴颜色码子。
+      colored_header_label: "色彩滴头部"
+      colors_heading: "颜色"
+      colors_text: "弄两只颜色当作小站滴皮肤。第一只会很突显滴，第二只乖乖滴当墙纸哟"
+      custom_styles_heading: "我来写样式"
+      custom_styles_text: "来点 LESS/CSS 的码子生成自己写的皮肤作为最初的皮肤哦。"
+      dark_mode_label: "夜猫子模式"
+      edit_css_button: "自己写点CSS"
+      enter_hex_message: "来敲个十六进制的颜色代码"
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: 默认语言
-      forum_description_heading: 站点描述
-      forum_description_text: 通过几个简短的词语或句子描述您的站点，这将出现在 Meta 标记，并且在搜索引擎中出现。
-      forum_title_heading: 站点名称
-      home_page_heading: 站点首页
-      home_page_text: "选择一个页面作为站点的首页。如果输入一个自定义的值，请使用基于站点根目录的相对路径。"
-      saved_message: 你的更改已保存
+      default_language_heading: "默认语言"
+      forum_description_heading: "小站描述"
+      forum_description_text: "来说两句介绍一下自己的小站，这会用于meta的描述标签哦！"
+      forum_title_heading: "小站名称"
+      home_page_heading: "小站首页"
+      home_page_text: "来选个页面来当小站的首页。从小站根目录开始相对路径哦！"
+      saved_message: "改滴东西存起来了哟"
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: 欢迎横幅
-      welcome_banner_text: 配置一个横幅文本，它将显示在站点中的“所有话题”页面上。
+      welcome_banner_heading: "欢迎语"
+      welcome_banner_text: "在这里写显示在小站横幅，显示在“所有话题”页面上面"
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "这是一个 <strong>测试版</strong> 程序，不建议在正式的生产环境中使用。"
-      contributing_text: "想要贡献？ 阅读 <a>贡献文档</a> 。"
-      extension_text: "想要开发拓展？ 阅读 <a>拓展文档</a> 。"
-      features_text: "有好的主意来改善功能？请来这告诉我们 <a>特性标签</a> 。"
-      support_text: "找到一个Bug？ 请在这里反馈 <a>支持标签</a> 。"
-      troubleshooting_text: "有问题吗？ 请阅读 <a>故障排除文档</a> 。"
-      version_text: "感谢你使用 Flarum ！ 你正在运行版本是 {version} 。"
-      welcome_text: "欢迎使用 Flarum Beta!"
+      beta_warning_text: "这个小站程序是测试用滴“测试版”不要在很重要的地方用哦！"
+      contributing_text: "想贡献点啥 戳这里<a>贡献文档</a> 。"
+      extension_text: "感觉用着不爽? 来瞧瞧 <a>拓展文档</a> 。"
+      features_text: "有更棒的主意改善小站程序戳这里告诉我们 <a>特性标签</a> 。"
+      support_text: "有Bug？ 戳这里 <a>支持标签</a> 。"
+      troubleshooting_text: "配置窝有问题？ 请戳 <a>故障排除文档</a> 。"
+      version_text: "感蟹使用 Flarum 哦！ 介个版本是 {version} 。"
+      welcome_text: "欢迎新人使用 Flarum Beta 哟!"
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "添加 LESS/CSS 代码以生成自定义样式作为 <a>默认外观</a> 。"
+      customize_text: "来点 LESS/CSS 佐料自己写个 <a>默认皮肤</a> 。"
       submit_button: => core.ref.save_changes
-      title: 自定义样式
+      title: "自己码皮肤"
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: 颜色
-      delete_button: 删除用户组
-      delete_confirmation: "你确定删除这个用户组吗？删除后该用户组中的用户不会被删除。"
-      icon_label: 图标
-      icon_text: "输入任意一个 <a>FontAwesome</a> 图标名称，<em>无需</em>添加 <code>fa-</code> 前缀。"
-      name_label: 名称
-      plural_placeholder: 用户组 (例如 Mods)
-      singular_placeholder: 单个用户 (例如 Mod)
+      color_label: "颜色""
+      delete_button: "删除小队"
+      delete_confirmation: "OAQ泥真滴要丢掉这个小队吗？丢掉后该小队中的小伙伴不会被丢滴哦。"
+      icon_label: "图标"
+      icon_text: "写一个任意的 <a>FontAwesome</a> 图标名称，<em>无需</em>添加 <code>fa-</code> 前缀滴。"
+      name_label: "响亮地名字"
+      plural_placeholder: "小队 (例如 Mods)"
+      singular_placeholder: "小伙伴 (例如 Mod)"
       submit_button: => core.ref.save_changes
-      title: 新用户组
+      title: "新人小队"
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: 添加插件
-      disable_button: 停用
-      enable_button: 启用
+      add_button: "加个插件"
+      disable_button: "滚去睡"
+      enable_button: "叫醒"
       settings_button: => core.ref.settings
-      uninstall_button: 卸载
+      uninstall_button: "滚蛋~"
 
     # These translations are used in the session dropdown menu.
     header:
@@ -77,20 +77,20 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: 请稍后...
+      title: "QwQ别急等一会！~"
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: 外观配置
-      appearance_text: "自定义页面颜色、徽标和其他变量。"
-      basics_button: 基本设置
-      basics_text: "修改您的站点名称、语言和其他基本设置。"
-      dashboard_button: 主要概览
-      dashboard_text: 各项数据，一目了然。
-      extensions_button: 插件拓展
-      extensions_text: 添加额外的拓展功能到您的站点。
-      permissions_button: 用户权限
-      permissions_text: 配置各用户组允许访问的内容和操作权限。
+      appearance_button: "皮肤配置"
+      appearance_text: "自定义页面颜色、徽标和其他可以改的东西。"
+      basics_button: "基础设置"
+      basics_text: "修改偶滴小站名称、语言和其他基本设置。"
+      dashboard_button: "主要概览"
+      dashboard_text: "所有数据在这里都可以看到！"
+      extensions_button: "插件拓展"
+      extensions_text: "加点额外的拓展功能到偶滴小站。"
+      permissions_button: "小伙伴滴权限"
+      permissions_text: 配置各小队允许访问的内容和操作权限。
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -103,7 +103,7 @@ core:
       edit_and_delete_posts_label: 编辑或删除回复
       global_heading: 全局
       moderate_heading: 管理相关
-      new_group_button: 新用户组
+      new_group_button: 新小队
       participate_heading: 内容相关
       read_heading: 访问相关
       rename_discussions_label: 修改标题
@@ -251,7 +251,7 @@ core:
       sign_up_text: "还没有注册账户？ <a>注册</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 用户名 或 邮箱
+      username_or_email_placeholder: 小伙伴名 或 邮箱
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -291,7 +291,7 @@ core:
     search:
       all_discussions_button: '所有话题中搜索 "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: 用户
+      users_heading: 小伙伴
 
     # These translations are used in the Settings page.
     settings:
@@ -335,7 +335,7 @@ core:
     user_controls:
       button: 操作
       delete_button: => core.ref.delete
-      delete_confirmation: "确定删除这个用户？该用户所有发言都会被删除。"
+      delete_confirmation: "确定删除这个小伙伴？该小伙伴所有发言都会被删除。"
       edit_button: => core.ref.edit
 
   # Translations in this namespace are used by the forum and admin interfaces.
@@ -451,9 +451,9 @@ core:
     sign_up: 注册
     start_a_discussion: 新的话题
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    username: 用户名
-    write_a_reply: 说点什么...
-    you: 你                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: 小伙伴滴名纸
+    write_a_reply: 说点啥？...
+    you: 泥                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
    ##
    # GROUP NAMES - These keys are translated at the back end.
@@ -461,11 +461,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: 创建者
-    admins: 创建组
-    guest: 游客
-    guests: 游客组
-    member: 用户
-    members: 用户组
-    mod: 管理员
-    mods: 管理组
+    admin: "上帝"
+    admins: "上帝一族"
+    guest: "孤魂"
+    guests: "孤魂组"
+    member: "小伙伴"
+    members: "小队"
+    mod: "管理姬"
+    mods: "城管大队"
