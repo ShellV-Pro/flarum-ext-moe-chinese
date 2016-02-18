@@ -90,38 +90,38 @@ core:
       extensions_button: "插件拓展"
       extensions_text: "加点额外的拓展功能到偶滴小站。"
       permissions_button: "小伙伴滴权限"
-      permissions_text: 配置各小队允许访问的内容和操作权限。
+      permissions_text: "配置各小队可以看的内容和操作权限。"
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: 修改标题
-      allow_post_editing_label: 修改内容
-      create_heading: 话题相关
-      delete_discussions_forever_label: 永久删除话题
-      delete_discussions_label: 删除话题
-      delete_posts_forever_label: 永久删除回复
-      edit_and_delete_posts_label: 编辑或删除回复
-      global_heading: 全局
-      moderate_heading: 管理相关
-      new_group_button: 新小队
-      participate_heading: 内容相关
-      read_heading: 访问相关
-      rename_discussions_label: 修改标题
-      reply_to_discussions_label: 发表回复
-      sign_up_label: 注册账户
-      start_discussions_label: 发布话题
-      view_discussions_label: 浏览话题
+      allow_renaming_label: "改改标题"
+      allow_post_editing_label: "改改内容"
+      create_heading: "与话题相关"
+      delete_discussions_forever_label: "这个话题永远丢掉"
+      delete_discussions_label: "丢掉话题"
+      delete_posts_forever_label: "这个回复永远丢掉"
+      edit_and_delete_posts_label: "重写或丢掉回复"
+      global_heading: "全局"
+      moderate_heading: "管理姬相关"
+      new_group_button: "新小队"
+      participate_heading: "与内容相关"
+      read_heading: "访问相关"
+      rename_discussions_label: "改改标题"
+      reply_to_discussions_label: "发表回复"
+      sign_up_label: "加入小站"
+      start_discussions_label: "发布帖子"
+      view_discussions_label: "浏览帖子"
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: 无限期
+      allow_indefinitely_button: "无限期"
       allow_some_minutes_button: "发布 {count} 分钟内|发布 {count} 分钟内"
-      allow_ten_minutes_button: 发布 10 分钟内
-      allow_until_reply_button: 直到新回复
-      everyone_button: 所有人
+      allow_ten_minutes_button: "发布 10 分钟内"
+      allow_until_reply_button: "直到新回复"
+      everyone_button: "所有小伙伴"
       members_button: => core.group.members
-      signup_closed_button: 关闭
-      signup_open_button: 开放
+      signup_closed_button: "关闭"
+      signup_open_button: "开放"
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -139,38 +139,38 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: 发送链接至邮箱
-      text: 点击下面的按钮后将发送一个链接至邮箱以完成重置密码。
+      send_button: "把这个链接发到邮箱"
+      text: "戳下面这个按钮会发个神秘代码到你滴邮箱来充值密码的OAQ"
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: 关闭
-      exit_full_screen_tooltip: 还原窗口
-      full_screen_tooltip: 最大化
-      minimize_tooltip: 最小化
+      close_tooltip: "关掉"
+      exit_full_screen_tooltip: "还原窗口"
+      full_screen_tooltip: "最大化"
+      minimize_tooltip: "最小化"
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: 写点什么...
+      body_placeholder: "写点什么..."
       discard_confirmation: "话题还没有发布，确定要丢弃？"
-      submit_button: 发布话题
+      submit_button: "发布话题"
       title: => core.ref.start_a_discussion
-      title_placeholder: 话题标题
+      title_placeholder: "话题标题"
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "更改还没有保存，确定要放弃？"
+      discard_confirmation: "尼还没有保存捏真的不要了OAQ？"
       post_link: "编辑 #{number} {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "回复还没有发表，确定要丢弃？"
-      posted_message: 你的回复已发表
-      submit_button: 发表回复
-      view_button: 查看
+      discard_confirmation: "回帖还没有发表，真的要扔掉么Σ（ ° △ °|||）"
+      posted_message: "泥滴回复已经推出去啦ヽ(✿ﾟ▽ﾟ)ノ"
+      submit_button: "发出去（￣_,￣ ）"
+      view_button: "我只是想看看"
 
     # These translations are used in the Confirm Password modal dialog.
     confirm_password:
@@ -180,24 +180,24 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: 无法回复
-      cannot_reply_text: 你没有权限回复此话题。
+      cannot_reply_button: "不可以回复的"
+      cannot_reply_text: "这个尼是没有权限回复这个话题哒（ノへ￣、）"
       delete_button: => core.ref.delete
       delete_confirmation: "确定删除这个话题？"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: 登入后回复
-      rename_button: 更改标题
-      rename_text: "输入新的标题："
+      log_in_to_reply_button: "登录账号后回复"
+      rename_button: "更改标题"
+      rename_text: "来写个新的标题："
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "空空如也，何不创作一个？"
+      empty_text: "（*・∀・）ゞ→→神马都没有不来写一个么？"
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: 标记为已读
-      replied_text: "{username} 回复于 {ago}"
-      started_text: "{username} 发布于 {ago}"
+      mark_as_read_tooltip: "标记为已读"
+      replied_text: "{username} 回帖于 {ago}"
+      started_text: "{username} 发表于 {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -210,53 +210,53 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: 我们已经将重置密码的链接发送至该邮箱，如果长时间仍未收到，请检查邮件垃圾箱。
+      email_sent_message: "小站已经把重置密码滴链接发到你滴邮箱咯哟，如果长时间没有收到看看是不是（；´д｀）ゞ丢进“垃圾邮箱”里面了"
       submit_button: 重置密码
-      text: 输入账户的邮箱，将发送一个链接为你重置密码。
-      title: 忘记密码
+      text: "嘤嘤嘤，密码都能忘w（ﾟДﾟ）w什么时候把小站也忘掉啊，来把你的邮箱告诉窝吧"
+      title: "OAQ忘记密码"
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: 管理后台
+      admin_button: "管理中心"
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: 我的资料
-      search_placeholder: 搜索其实很简单
+      profile_button: "我的名片"
+      search_placeholder: "搜索内容非常简单的说哦~"
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: 无法发布话题
-      mark_all_as_read_confirmation: "确认全部标记为已读？"
+      cannot_start_discussion_button: "这个话题好像无法发布呢（*@ο@*）"
+      mark_all_as_read_confirmation: "确定都标称读过滴？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: 刷新
+      refresh_tooltip: "刷新一下"
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: 最新回复
-      newest_button: 最新话题
-      oldest_button: 最旧话题
-      relevance_button: 最佳匹配
-      top_button: 热门话题
+      latest_button: "最new滴回复"
+      newest_button: "最new滴话题"
+      oldest_button: "陈旧滴话题"
+      relevance_button: "最棒滴匹配"
+      top_button: "最火滴话题"
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      confirmation_required_message: "你需要进行邮件验证后才能登入，我们发送了一封邮件至 {email}，请确认查收。"
+      confirmation_required_message: "需要验证完邮箱才可以登录的呢/(ㄒoㄒ)/~~，你滴邮箱 {email}是否收到了验证呢？"
       forgot_password_link: "忘记了密码？"
-      invalid_login_message: 你的登入信息有误！
+      invalid_login_message: "(ノ｀Д)ノ登录信息有问题！"
       password_placeholder: => core.ref.password
-      sign_up_text: "还没有注册账户？ <a>注册</a>"
+      sign_up_text: "还没有小站账号 <a>来注册一个</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: 小伙伴名 或 邮箱
+      username_or_email_placeholder: "尼滴用户名 或 邮箱"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} 更改了标题"
-      empty_text: 没有新通知
+      empty_text: "╮(╯_╰)╭没有新的通知哦"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -275,14 +275,14 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: 最后更新
-      original_post_link: 最先发布
+      now_link: "最后更新滴"
+      original_post_link: "最先发布滴"
       unread_text: "{count} 未读"
       viewing_text: "{index} / {count} 条|{index} / {count} 条"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_text: "{username} 将原标题 {old} 修改成 {new}"
+      discussion_renamed_text: "{username} 将原标题 {old} 修改成 {new} 咯"
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} 后"
@@ -291,19 +291,19 @@ core:
     search:
       all_discussions_button: '所有话题中搜索 "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: 小伙伴
+      users_heading: "小伙伴"
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: 账户设置
+      account_heading: "账户设置"
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: 通知
-      notify_discussion_renamed_label: 我的话题被修改
-      privacy_disclose_online_label: 允许其他人看到我的在线状态
-      privacy_heading: 隐私相关
+      notify_by_web_heading: "通知"
+      notify_discussion_renamed_label: "窝的话题被修改惹"
+      privacy_disclose_online_label: "可以让其他人看窝在不在线"
+      privacy_heading: "隐私的东西◕ฺ‿◕ฺ✿ฺ)"
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
@@ -311,29 +311,29 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "已经注册过了吗？ <a>登入</a>"
+      log_in_text: "已经有小站账号啦？ <a>登入</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "欢迎你，{username}"
+      welcome_text: "欢迎{username}酱加入窝们哦"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: 移除
-      avatar_upload_button: 上传
-      bio_placeholder: 写点什么介绍下自己吧
+      avatar_remove_button: "删掉"
+      avatar_upload_button: "上传"
+      bio_placeholder: "为什么不写点啥介绍一下自己《"
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}"
       joined_date_text: "加入于 {ago}"
-      online_text: 在线
+      online_text: "在线"
       posts_load_more_button: => core.ref.load_more
-      posts_link: 回复
+      posts_link: "回复"
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: 操作
+      button: "操作"
       delete_button: => core.ref.delete
       delete_confirmation: "确定删除这个小伙伴？该小伙伴所有发言都会被删除。"
       edit_button: => core.ref.edit
@@ -343,7 +343,7 @@ core:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: 隐藏
+      hidden_tooltip: "藏起来"
 
     # These translations are used to modify usernames.
     username:
@@ -351,15 +351,15 @@ core:
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "网络不太顺，请再试一次。"
-      not_found_message: 没有这个页面
-      permission_denied_message: 好像不能进行此操作
-      rate_limit_exceeded_message: 你的操作太频繁了，请等一会儿。
+      generic_message: "嘤嘤嘤/(ㄒoㄒ)/~~网络好像出了点毛病，请再试一次。"
+      not_found_message: "没有这个页面"
+      permission_denied_message: "好像不能进行这个操作呢"
+      rate_limit_exceeded_message: "操作这么频繁OAQ不会很累么。"
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: K
-      mega_text: M
+      kilo_text: "K"
+      mega_text: "M"
 
     # These translations are used to punctuate a series of items.
     series:
@@ -369,11 +369,11 @@ core:
 
   # Translations in this namespace are used in basic HTML interface.
   basic:
-    javascript_disabled_message: 使用更先进的浏览器访问效果更佳。
-    load_error_message: 当前访问的是简约版，使用更先进的浏览器访问效果更佳。
-    loading_text: 正在载入...
-    next_page_button: 下一页
-    previous_page_button: 上一页
+    javascript_disabled_message: "使用最新的浏览器看效果可能更棒哟(ˇˍˇ) "
+    load_error_message: "(☄⊙ω⊙)☄简现在看到的的是简约版呢！想看最新滴请先搞到个新版浏览器！"
+    loading_text: "正在拼命加载（窝会越来越快滴）"
+    next_page_button: "下一页"
+    previous_page_button: "上一页"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -381,30 +381,30 @@ core:
     # These translations are used in emails sent when users register new accounts.
     activate_account:
       body: |
-        嘿~
+        "泥壕哦！
 
-        {username} 想通过这个邮箱在 {forum} 注册账号。（真希望是你！）
+        {username} 想通过这个邮箱在 {forum} 注册账号。（真心希望是你自己操作的呢！）
 
-        如果是你注册的，只需打开下面的链接即可完成账号激活。
+        如果真滴是尼注册滴，只需重重滴戳下面滴链接即可完成账号激活。
 
         {url}
 
-        如果你感到莫名其妙，请忽略这封邮件。
-      subject: 激活你的账号
+        如果泥没有做个这个，请忽略这个邮件，（不要回复哦！）
+      subject: "激活你的账号"
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
       body: |
         Hey {username} !
 
-        有人想更换你在 {forum} 的邮箱地址。（但愿是你！）
+        有人想更换你在 {forum} 的邮箱地址。（如果真滴是你！）
 
-        如果确定是你的操作，只需打开下面的链接即可更换新的邮箱。
+        如果真滴你的操作哒！只需打开下面的链接即可更换新的邮箱。
 
         {url}
 
         如果不是你，请立即检查账号安全并修改密码。
-      subject: 确认邮箱地址
+      subject: "确认邮箱地址"
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -418,7 +418,7 @@ core:
         {url}
 
         如果不是你，请忽略掉它，我们不会受理这个操作。
-      subject: 重置你的密码
+      subject: "重置你的密码"
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -427,33 +427,33 @@ core:
   # Translations in this namespace are referenced by two or more unique keys.
 
   ref:
-    all_discussions: 所有话题
-    change_email: 更换邮箱
-    change_password: 更改密码
-    confirm_password: 确认密码
-    confirmation_email_sent: "我们已经发送了一封邮件至 {email}，请打开它并完成账号激活。"
-    delete: 删除
-    delete_forever: 永久删除
-    discussions: 话题
-    edit: 编辑
-    email: 邮箱
-    load_more: 载入更多
-    log_in: 登入
-    log_out: 登出
-    mark_all_as_read: 标记所有为已读
-    notifications: 消息通知
-    okay: 完成                                     # Referenced by flarum-tags.yml
-    password: 密码
-    reply: 回复                                # Referenced by flarum-mentions.yml
-    restore: 恢复
-    save_changes: 保存更改                  # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: 个人设置
-    sign_up: 注册
-    start_a_discussion: 新的话题
+    all_discussions: "所有话题"
+    change_email: "换个邮箱"
+    change_password: "改个密码"
+    confirm_password: "确认密码"
+    confirmation_email_sent: "小站已经将一只邮件发到了 {email}，请打开它并完成账号激活。"
+    delete: "丢掉"
+    delete_forever: "永久丢掉"
+    discussions: "话题"
+    edit: "编辑"
+    email: "邮箱"
+    load_more: "载入更多\(^o^)/~"
+    log_in: "登入"
+    log_out: "登出"
+    mark_all_as_read: "标记所有为已读"
+    notifications: "消息通知"
+    okay: "完成"                                     # Referenced by flarum-tags.yml
+    password: "密码"
+    reply: "回复"                                # Referenced by flarum-mentions.yml
+    restore: "恢复"
+    save_changes: "保存更改"                  # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: "个人设置"
+    sign_up: "注册"
+    start_a_discussion: "新的话题"
     some_others: "{count} 人|{count} 人"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    username: 小伙伴滴名纸
-    write_a_reply: 说点啥？...
-    you: 泥                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: "小伙伴滴名纸"
+    write_a_reply: "说点啥？..."
+    you: "泥"                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
    ##
    # GROUP NAMES - These keys are translated at the back end.
