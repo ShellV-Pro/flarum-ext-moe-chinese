@@ -117,7 +117,7 @@ core:
       allow_indefinitely_button: "无限期"
       allow_some_minutes_button: "发布 {count} 分钟内|发布 {count} 分钟内"
       allow_ten_minutes_button: "发布 10 分钟内"
-      allow_until_reply_button: "直到新回复"
+      allow_until_reply_button: "直到有新回复"
       everyone_button: "所有小伙伴"
       members_button: => core.group.members
       signup_closed_button: "关闭"
@@ -140,7 +140,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: "把这个链接发到邮箱"
-      text: "戳下面这个按钮会发个神秘代码到你滴邮箱来充值密码的OAQ"
+      text: "戳下面这个按钮会发个神秘代码到你滴邮箱来重置密码的OAQ"
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -153,14 +153,14 @@ core:
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
       body_placeholder: "写点什么..."
-      discard_confirmation: "话题还没有发布，确定要丢弃？"
+      discard_confirmation: "真的要抛弃这只野生的话题姬？"
       submit_button: "发布话题"
       title: => core.ref.start_a_discussion
       title_placeholder: "话题标题"
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "尼还没有保存捏真的不要了OAQ？"
+      discard_confirmation: "泥还没有保存捏真的不要了OAQ？"
       post_link: "编辑 #{number} {discussion}"
       submit_button: => core.ref.save_changes
 
@@ -181,7 +181,7 @@ core:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       cannot_reply_button: "不可以回复的"
-      cannot_reply_text: "这个尼是没有权限回复这个话题哒（ノへ￣、）"
+      cannot_reply_text: "泥是没有权限回复这个话题哒（ノへ￣、）"
       delete_button: => core.ref.delete
       delete_confirmation: "确定删除这个话题？"
       delete_forever_button: => core.ref.delete_forever
@@ -193,9 +193,9 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: "（*・∀・）ゞ→→神马都没有不来写一个么？"
+      empty_text: "（*・∀・）ゞ→→神马都没有不来一发么？"
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: "标记为已读"
+      mark_as_read_tooltip: "戳我来设为已读"
       replied_text: "{username} 回帖于 {ago}"
       started_text: "{username} 发表于 {ago}"
 
@@ -221,7 +221,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: "我的名片"
-      search_placeholder: "搜索内容非常简单的说哦~"
+      search_placeholder: "搜索内容非常简单的说~"
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -229,7 +229,7 @@ core:
     index:
       all_discussions_link: => core.ref.all_discussions
       cannot_start_discussion_button: "这个话题好像无法发布呢（*@ο@*）"
-      mark_all_as_read_confirmation: "确定都标称读过滴？"
+      mark_all_as_read_confirmation: "确定都读过了poi？"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       refresh_tooltip: "刷新一下"
       start_discussion_button: => core.ref.start_a_discussion
@@ -246,12 +246,12 @@ core:
     log_in:
       confirmation_required_message: "需要验证完邮箱才可以登录的呢/(ㄒoㄒ)/~~，你滴邮箱 {email}是否收到了验证呢？"
       forgot_password_link: "忘记了密码？"
-      invalid_login_message: "(ノ｀Д)ノ登录信息有问题！"
+      invalid_login_message: "(ノ｀Д)ノ登录信息有问题，baka！"
       password_placeholder: => core.ref.password
       sign_up_text: "还没有小站账号 <a>来注册一个</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: "尼滴用户名 或 邮箱"
+      username_or_email_placeholder: "泥滴用户名 或 邮箱"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -322,7 +322,7 @@ core:
     user:
       avatar_remove_button: "删掉"
       avatar_upload_button: "上传"
-      bio_placeholder: "为什么不写点啥介绍一下自己《"
+      bio_placeholder: "为什么不写点啥介绍一下自己？"
       discussions_link: => core.ref.discussions
       in_discussion_text: "{discussion}"
       joined_date_text: "加入于 {ago}"
@@ -352,7 +352,7 @@ core:
     # These translations are displayed as error messages.
     error:
       generic_message: "嘤嘤嘤/(ㄒoㄒ)/~~网络好像出了点毛病，请再试一次。"
-      not_found_message: "没有这个页面"
+      not_found_message: "页面姬躲到西伯利亚了"
       permission_denied_message: "好像不能进行这个操作呢"
       rate_limit_exceeded_message: "操作这么频繁OAQ不会很累么。"
 
@@ -385,7 +385,7 @@ core:
 
         {username} 想通过这个邮箱在 {forum} 注册账号。（真心希望是你自己操作的呢！）
 
-        如果真滴是尼注册滴，只需重重滴戳下面滴链接即可完成账号激活。
+        如果真滴是泥注册滴，只需重重滴戳下面滴链接即可完成账号激活。
 
         {url}
 
@@ -399,7 +399,7 @@ core:
 
         有人想更换你在 {forum} 的邮箱地址。（如果真滴是你！）
 
-        如果真滴你的操作哒！只需打开下面的链接即可更换新的邮箱。
+        如果真滴是泥的操作哒！只需打开下面的链接即可更换新的邮箱。
 
         {url}
 
